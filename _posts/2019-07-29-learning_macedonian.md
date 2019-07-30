@@ -47,6 +47,12 @@ Well, gotta start with the alphabet :)
 |Ш ш  | sh as in ha**sh**      |
 
 
+|节点|软件|进程|
+|-|-|-|
+|test01|jdk, spark|Master|
+|test02|jdk, spark|Worker|
+
+
 
 
 
