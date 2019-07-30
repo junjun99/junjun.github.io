@@ -18,8 +18,8 @@ Well, gotta start with the alphabet :)
         }
 </style>
 
-|Symbol|Pronunciation Example|
-|:--------|:---------------------|
+|Symbol |Pronunciation Example |
+|-----------|---------------------|
 |А а  | a as in **A**rjun      |
 |Б б  | b as in **b**yte       |
 |В в  | v as in **v**im        |
