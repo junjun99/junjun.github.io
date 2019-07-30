@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title: Learning Mакедонски
 ---
 
@@ -12,8 +12,14 @@ Well, gotta start with the alphabet :)
 
 > Pro-tip: The name of the letter is the exact same as the way you **always** pronounce it. This makes spelling and reading so much easier when compared to English.
 
-|Symbol | Pronunciation Example|
-|:--- | :----------------------|
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid grey;
+        }
+</style>
+
+|Symbol |Pronunciation Example |
+|-----------|---------------------|
 |А а  | a as in **A**rjun      |
 |Б б  | b as in **b**yte       |
 |В в  | v as in **v**im        |
@@ -45,6 +51,7 @@ Well, gotta start with the alphabet :)
 |Ч ч  | ch as in bat**ch**     |
 |Џ џ  | j as in **j**oin       |
 |Ш ш  | sh as in ha**sh**      |
+{: .tablelines}
 
 
 
