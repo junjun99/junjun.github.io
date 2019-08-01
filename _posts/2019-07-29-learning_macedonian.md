@@ -54,6 +54,75 @@ Well, gotta start with the alphabet :)
 {: .tablelines}
 
 
+##Useful Phrases
+
+The **bold** is where the emphasis (if any) is placed
+
+###Greetings 
+
+**Здра**во
+> Hello 
+
+**Добро** утро
+> Good morning
+
+До**брар** вечер
+> Good evening
+
+До**бра** ноќ
+> Good night
+
+Чао
+> Bye
+
+Дови**ду**вање
+> Good bye
+
+
+### Informal Conversation
+
+
+Како **си**?
+> How are you?
+
+Јас сум **до**бро
+> I am good (male).
+
+Како **се** викаш?
+> What is your name?
+
+Јас се ви**кам** Арџун
+> My name is Arjun.
+
+Од каде си?
+> Where are you from?
+
+Јас сум од Тринидад и Тобаго
+> I am from Trinidad and Tobago.
+
+Мило ми е што те запознав
+> Nice to meet you 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
