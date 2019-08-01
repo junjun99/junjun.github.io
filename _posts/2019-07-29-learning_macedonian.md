@@ -54,11 +54,15 @@ Well, gotta start with the alphabet :)
 {: .tablelines}
 
 
+
 ##Useful Phrases
+
 
 The **bold** is where the emphasis (if any) is placed
 
+
 ###Greetings 
+
 
 **Здра**во
 > Hello 
