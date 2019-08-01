@@ -60,9 +60,11 @@ Well, gotta start with the alphabet :)
 
 
 ### Useful Phrases
-
+&nbsp;
+&nbsp;
 
 #### Greetings 
+&nbsp;
 
 | Македонски | English | 
 | ------------------| ------------------| 
@@ -74,8 +76,11 @@ Well, gotta start with the alphabet :)
 | Дови**ду**вање | Good bye | 
 {: .tablelines}
 
+&nbsp;
+&nbsp;
 
 #### Informal Conversation
+&nbsp;
 
 | Македонски | English | 
 | ----------------| ----------------- | 
