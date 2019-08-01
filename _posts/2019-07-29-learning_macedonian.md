@@ -14,7 +14,6 @@ Well, gotta start with the alphabet :)
 
 <style>
 .tablelines table, .tablelines td, .tablelines th {
-        font-weight: bold;
       border: 1px solid #cccccc;
       text-align: left;
       margin: 0;
