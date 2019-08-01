@@ -12,12 +12,12 @@ Well, gotta start with the alphabet :)
 
 > Pro-tip: The name of the letter is the exact same as the way you **always** pronounce it. This makes spelling and reading so much easier when compared to English.
 
-<style>
+<!-- <style>
 .tablelines table, .tablelines td, .tablelines th {
         border: 1px solid grey;
         }
 </style>
-
+ -->
 |Symbol |Pronunciation Example |
 |-----------|---------------------|
 |А а  | a as in **A**rjun      |
@@ -51,7 +51,7 @@ Well, gotta start with the alphabet :)
 |Ч ч  | ch as in bat**ch**     |
 |Џ џ  | j as in **j**oin       |
 |Ш ш  | sh as in ha**sh**      |
-{: .tablelines}
+<!-- {: .tablelines} -->
 
 
 
@@ -68,8 +68,8 @@ Well, gotta start with the alphabet :)
 | До**бра** ноќ  | Goodnight |
 | Чао | Bye | 
 | Дови**ду**вање | Good bye | 
-{: .tablelines}
-
+<!-- {: .tablelines}
+ -->
 
 ### Informal Conversation
 
