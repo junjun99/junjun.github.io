@@ -64,7 +64,6 @@ Well, gotta start with the alphabet :)
 &nbsp;
 
 #### Greetings 
-&nbsp;
 
 | Македонски | English | 
 | ------------------| ------------------| 
@@ -78,9 +77,7 @@ Well, gotta start with the alphabet :)
 
 &nbsp;
 &nbsp;
-
 #### Informal Conversation
-&nbsp;
 
 | Македонски | English | 
 | ----------------| ----------------- | 
