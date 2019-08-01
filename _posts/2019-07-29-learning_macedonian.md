@@ -12,12 +12,16 @@ Well, gotta start with the alphabet :)
 
 > Pro-tip: The name of the letter is the exact same as the way you **always** pronounce it. This makes spelling and reading so much easier when compared to English.
 
-<!-- <style>
+<style>
 .tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid grey;
+        font-weight: bold;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px
         }
 </style>
- -->
+
 |Symbol |Pronunciation Example |
 |-----------|---------------------|
 |А а  | a as in **A**rjun      |
@@ -51,49 +55,39 @@ Well, gotta start with the alphabet :)
 |Ч ч  | ch as in bat**ch**     |
 |Џ џ  | j as in **j**oin       |
 |Ш ш  | sh as in ha**sh**      |
-<!-- {: .tablelines} -->
+{: .tablelines}
 
 
 
-## Useful Phrases
+### Useful Phrases
 
 
-### Greetings 
+#### Greetings 
 
 | Македонски | English | 
-| -----------| -------- | 
+| ------------------| ------------------| 
 |**Здра**во  | Hello |
 | **Добро** утро | Good morning | 
 | До**брар** вечер | Good evening | 
 | До**бра** ноќ  | Goodnight |
 | Чао | Bye | 
 | Дови**ду**вање | Good bye | 
-<!-- {: .tablelines}
- -->
-
-### Informal Conversation
+{: .tablelines}
 
 
-Како **си**?
-> How are you?
+#### Informal Conversation
 
-Јас сум **до**бро
-> I am good (male).
+| Македонски | English | 
+| ----------------| ----------------- | 
+| Како **си**? | How are you?
+|Јас сум **до**бро | I am good (male) |
+|Како **се** викаш? | What is your name? |
+|Јас се ви**кам** Арџун | My name is Arjun. |
+|Од каде си? | Where are you from? |
+|Јас сум од Тринидад и Тобаго | I am from Trinidad and Tobago |
+|Мило ми е што те запознав |  Nice to meet you | 
+{: .tablelines}
 
-Како **се** викаш?
-> What is your name?
-
-Јас се ви**кам** Арџун
-> My name is Arjun.
-
-Од каде си?
-> Where are you from?
-
-Јас сум од Тринидад и Тобаго
-> I am from Trinidad and Tobago.
-
-Мило ми е што те запознав
-> Nice to meet you 
 
 
 
