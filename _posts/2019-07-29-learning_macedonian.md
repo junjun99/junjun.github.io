@@ -55,32 +55,20 @@ Well, gotta start with the alphabet :)
 
 
 
-##Useful Phrases
+## Useful Phrases
 
 
-The **bold** is where the emphasis (if any) is placed
+### Greetings 
 
-
-###Greetings 
-
-
-**Здра**во
-> Hello 
-
-**Добро** утро
-> Good morning
-
-До**брар** вечер
-> Good evening
-
-До**бра** ноќ
-> Good night
-
-Чао
-> Bye
-
-Дови**ду**вање
-> Good bye
+| Македонски | English | 
+| -----------| -------- | 
+|**Здра**во  | Hello |
+| **Добро** утро | Good morning | 
+| До**брар** вечер | Good evening | 
+| До**бра** ноќ  | Goodnight |
+| Чао | Bye | 
+| Дови**ду**вање | Good bye | 
+{: .tablelines}
 
 
 ### Informal Conversation
