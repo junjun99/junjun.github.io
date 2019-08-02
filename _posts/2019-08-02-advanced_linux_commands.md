@@ -28,7 +28,7 @@ gshuf -zn <FILE_COUNT> -e <PATTERN> | xargs -0 gcp -vt <TARGET_DIR>
 
 Linux:
 ```
-shuf -zn8 <FILE_COUNT> -e <PATTERN> | xargs -0 cp -vt <TARGET_DIR>
+shuf -zn <FILE_COUNT> -e <PATTERN> | xargs -0 cp -vt <TARGET_DIR>
 ```
 
 You may encounter an error: `shuf: Argument list too long`. 
