@@ -7,22 +7,18 @@ title: Macedonian Vocabulary 1
 
 ### Vocab 
 
-
-| Македонски | English |
-| ------------- | --------|
-| Вода | Water |
-| Шпагети | Spaghetti |
-| Леб     | Bread |
-| Благо | Sweet |
-| Луто  | Spicy |
-| Солено | Salty |
-| Cветло | Light (illuminated) |
-| Темно | Dark |
-| Nадвор | Outside |
-| За | For |
-| Од | From |
-| Во | In |
-{ .tablelines} 
+ Вода - Water 
+ Шпагети - Spaghetti 
+ Леб - Bread 
+ Благо - Sweet 
+ Луто  - Spicy 
+ Солено - Salty 
+ Cветло - Light (illuminated) 
+ Темно - Dark 
+ Nадвор - Outside 
+ За - For 
+ Од - From 
+ Во - In 
 
 ### Example Usage 
 
@@ -53,15 +49,6 @@ title: Macedonian Vocabulary 1
  * Не е важно - It is not important.
 
 
-
- <style>
-.tablelines table, .tablelines td, .tablelines th {
-      border: 1px solid #cccccc;
-      text-align: left;
-      margin: 0;
-      padding: 6px 13px
-        }
-</style>
 
 
 
