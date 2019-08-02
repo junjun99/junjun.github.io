@@ -8,8 +8,11 @@ Just a collection of useful commands that I find cool/interesting.
 &nbsp;
 
 
-You will require **coreutils** to run the MacOS commmands. (`brew install coreutils`) &nbsp;
+You will require **coreutils** to run the MacOS commmands. (`brew install coreutils`) 
+&nbsp;
 [Don't have homebrew? Please install it.](https://brew.sh/)
+&nbsp;
+&nbsp;
 &nbsp;
 
 
