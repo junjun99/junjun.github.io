@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: false
+comments: true
 title: Learning Mакедонски
 ---
 
@@ -68,7 +68,7 @@ Well, gotta start with the alphabet :)
 | ------------------| ------------------| 
 |**Здра**во  | Hello |
 | **Добро** утро | Good morning | 
-| До**брар** вечер | Good evening | 
+| До**бра** вечер | Good evening | 
 | До**бра** ноќ  | Goodnight |
 | Чао | Bye | 
 | Дови**ду**вање | Good bye | 
