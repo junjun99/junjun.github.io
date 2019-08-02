@@ -32,12 +32,14 @@ You may encounter an error: `shuf: Argument list too long`.
 In this case, we can pipe the arguments as follows:
 
 MacOS:
-
-```find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<PATTERN>' -print0 | gshuf -n <FILE_COUNT> -z | xargs -0 gcp -t <TARGET_DIR>```
+```
+find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<PATTERN>' -print0 | gshuf -n <FILE_COUNT> -z | xargs -0 gcp -t <TARGET_DIR>
+```
 
 Linux:
-
-```find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<PATTERN>' -print0 | shuf -n <FILE_COUNT> -z | xargs -0  cp -t <TARGET_DIR>```
+```
+find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<PATTERN>' -print0 | shuf -n <FILE_COUNT> -z | xargs -0  cp -t <TARGET_DIR>
+```
 
 You can even tweak these commands so that you can copy N random **lines** from one file to another . Useful in those cases where all your data is in one file. (*Hint:* use 🐱)
 &nbsp;
