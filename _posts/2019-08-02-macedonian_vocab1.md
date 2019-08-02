@@ -4,14 +4,6 @@ comments: true
 title: Macedonian Vocabulary 1
 ---
 
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-      border: 1px solid #cccccc;
-      text-align: left;
-      margin: 0;
-      padding: 6px 13px
-        }
-</style>
 
 ### Vocab 
 
@@ -59,5 +51,17 @@ title: Macedonian Vocabulary 1
  * Важи. - Deal/Okay/Sounds good
  * Важно - Important.
  * Не е важно - It is not important.
+
+
+
+ <style>
+.tablelines table, .tablelines td, .tablelines th {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px
+        }
+</style>
+
 
 
