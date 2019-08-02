@@ -10,6 +10,7 @@ Just a collection of useful commands that I find cool/interesting.
 
 You will require **coreutils** to run the MacOS commmands. (`brew install coreutils`) 
 &nbsp;
+
 [Don't have homebrew? Please install it.](https://brew.sh/)
 &nbsp;
 &nbsp;
@@ -36,13 +37,10 @@ MacOS:
 Linux:
 `find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<>PATTERN' -print0 | shuf -n <FILE_COUNT> -z | xargs -0  cp -t <TARGET_DIR>`
 
-You can even tweak these commands so that you can copy N random **lines** from one file to another . Useful in those cases where all your data is in one file.(*Hint:* 🐱)
-
+You can even tweak these commands so that you can copy N random **lines** from one file to another . Useful in those cases where all your data is in one file. (*Hint:* use 🐱)
 &nbsp;
 &nbsp;
 &nbsp;
-
-
 #### More to come!
 &nbsp;
 &nbsp;
