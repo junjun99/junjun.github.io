@@ -1,8 +1,7 @@
-
 ---
 layout: post
 comments: true
-title: Learning Mакедонски
+title: Cool Convoluted Commands
 ---
 
 Just a collection of useful commands that I find cool/interesting.
