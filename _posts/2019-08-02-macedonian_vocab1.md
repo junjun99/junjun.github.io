@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Macedonian Vocabulary 1
 ---
+
 <style>
 .tablelines table, .tablelines td, .tablelines th {
       border: 1px solid #cccccc;
@@ -14,8 +15,9 @@ title: Macedonian Vocabulary 1
 
 ### Vocab 
 
+
 | Македонски | English |
-| ---------- | ------- |
+| ------------- | --------|
 | Вода | Water |
 | Шпагети | Spaghetti |
 | Леб     | Bread |
@@ -33,15 +35,15 @@ title: Macedonian Vocabulary 1
 ### Example Usage 
 
  * Дај ми `вода` - Give me water (informal)
- * Даѕ ми леб - Give me bread (informal)
- * Cакам шпагети за ручек - I want spaghetti for lunch
- * Сакам нечто благо после ручек - I want something sweet after lunch.
- * Многу е солено - It is very salty.
- * Не сакам луто - I don't like/want spicy.
- * Има вода во чашата? - Is there water in the glass?
- * Јас сум надвор, и ти? - I am outside, and you?
- * Надвор сеуште е светло - Outide is still light. 
- * Ова е за теве - This is for you.
+ * Даѕ ми `леб` - Give me bread (informal)
+ * Cакам `шпагети` за ручек - I want spaghetti for lunch
+ * Сакам нечто `благо` после ручек - I want something sweet after lunch.
+ * Многу е `солено` - It is very salty.
+ * Не сакам `луто` - I don't like/want spicy.
+ * Има `вода` во чашата? - Is there water in the glass?
+ * Јас сум `надвор`, и ти? - I am outside, and you?
+ * Надвор сеуште е `светло` - Outide is still light. 
+ * Ова е `за` теве - This is for you.
 
 
 ### Wholesome Phrases 
