@@ -22,10 +22,14 @@ You will require **coreutils** to run the MacOS commmands. (`brew install coreut
 Good for messing around with a small sample from a large dataset. You can also add a regex pattern if you wish to filter.
 
 MacOS:
-`gshuf -zn <FILE_COUNT> -e <PATTERN> | xargs -0 gcp -vt <TARGET_DIR>`
+```
+gshuf -zn <FILE_COUNT> -e <PATTERN> | xargs -0 gcp -vt <TARGET_DIR>
+```
 
 Linux:
-`shuf -zn8 <FILE_COUNT> -e <PATTERN> | xargs -0 cp -vt <TARGET_DIR>`
+```
+shuf -zn8 <FILE_COUNT> -e <PATTERN> | xargs -0 cp -vt <TARGET_DIR>
+```
 
 You may encounter an error: `shuf: Argument list too long`. 
 
