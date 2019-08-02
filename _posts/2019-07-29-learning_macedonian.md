@@ -6,7 +6,9 @@ title: Learning Mакедонски
 
 I have recently started learning the Macedonian language and I find it very fun and interesting!
 
-I plan to update this page regularly and add the vocabulary and useful phrases I have learnt. This exercise is primarily for me to get used to writing in the Macedonian alphabet and a place to do quick reviews. I'll be visiting Macedonia at the end of Summer so I'll get some direct feedback on how good (or bad) my basic Macedonian is. Wish me luck!
+Special thanks to [Sanja](https://sanjass.github.io/) for motivating me to pursue this and providing so much support!
+
+I plan to upload pages regularly to add the vocabulary and useful phrases I have learnt. This exercise is primarily for me to get used to writing in the Macedonian alphabet and a place to do quick reviews. I'll be visiting Macedonia at the end of Summer so I'll get some direct feedback on how good (or bad) my basic Macedonian is. Wish me luck!
 
 Well, gotta start with the alphabet :)
 
