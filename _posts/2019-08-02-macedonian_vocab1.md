@@ -7,18 +7,18 @@ title: Macedonian Vocabulary 1
 
 ### Vocab 
 
- Вода - Water <br/>
- Шпагети - Spaghetti <br/>
- Леб - Bread <br/>
- Благо - Sweet <br/>
- Луто  - Spicy <br/>
- Солено - Salty <br/>
- Cветло - Light (illuminated)  <br/>
- Темно - Dark <br/>
- Nадвор - Outside <br/>
- За - For <br/>
- Од - From <br/>
- Во - In <br/>
+* Вода - Water 
+* Шпагети - Spaghetti 
+* Леб - Bread 
+* Благо - Sweet 
+* Луто  - Spicy 
+* Солено - Salty 
+* Cветло - Light (illuminated)  
+* Темно - Dark 
+* Nадвор - Outside 
+* За - For 
+* Од - From 
+* Во - In 
 
 ### Example Usage 
 
