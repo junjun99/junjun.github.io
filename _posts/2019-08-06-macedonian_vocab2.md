@@ -48,7 +48,7 @@ title: Macedonian Vocabulary 2
 
 * За малку - So close...
 * Шознам - I'm not really sure. 
-* Јебига - ~F#ck~ it. (used as an expression of minor dissapointment)
+* Јебига - ~~F#ck~~ it. (used as an expression of minor dissapointment)
 
 
 
