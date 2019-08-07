@@ -25,16 +25,12 @@ You will require **coreutils** to run the MacOS commmands. (`brew install coreut
 
 <p> MacOS: </p>
 <code>
-```
-gshuf -zn <FILE_COUNT> -e <PATTERN> | xargs -0 gcp -vt <TARGET_DIR>
-```
+gshuf -zn <i>FILE_COUNT</i> -e <i>PATTERN</i> | xargs -0 gcp -vt <i>TARGET_DIR</i>
 </code>
 
 <p>Linux:</p>
 <code>
-```
-shuf -zn <FILE_COUNT> -e <PATTERN> | xargs -0 cp -vt <TARGET_DIR>
-```
+shuf -zn <i>FILE_COUNT</i> -e <i>PATTERN</i> | xargs -0 cp -vt <i>TARGET_DIR</i>
 </code>
 
 <p>You may encounter an error: <code>`shuf: Argument list too long`. </code> </p>
@@ -43,12 +39,12 @@ shuf -zn <FILE_COUNT> -e <PATTERN> | xargs -0 cp -vt <TARGET_DIR>
 
 <p>MacOS:</p>
 <code>
-find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<PATTERN>' -print0 | gshuf -n <FILE_COUNT> -z | xargs -0 gcp -t <TARGET_DIR>
+find <i>SOURCE_DIR</i> -mindepth 1 -maxdepth 1 ! -name <i>PATTERN</i> -print0 | gshuf -n <i>FILE_COUNT</i> -z | xargs -0 gcp -t <i>TARGET_DIR</i>
 </code>
 
 <p>Linux:</p>
 <code>
-find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<PATTERN>' -print0 | shuf -n <FILE_COUNT> -z | xargs -0  cp -t <TARGET_DIR>
+find <i>SOURCE_DIR</i> -mindepth 1 -maxdepth 1 ! -name <i>PATTERN</i> -print0 | shuf -n <i>FILE_COUNT</i> -z | xargs -0  cp -t <i>TARGET_DIR</i>
 </code>
 
 <p>You can even tweak these commands so that you can copy N random **lines** from one file to another . Useful in those cases where all your data is in one file. (*Hint:* use 🐱)</p>
@@ -57,7 +53,7 @@ find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<PATTERN>' -print0 | shuf -n 
 </details>
 
 
-<details><summary>Find non-empty files in a directory</summary>
+<!-- <details><summary>Find non-empty files in a directory</summary>
 <p>
 
 Same for MacOS and Linux 
@@ -115,7 +111,7 @@ Russell,Red,Windows,Dota2,C++
 Sanja,Black,Ubuntu,Netflix,Pyhon
 ```
 </p>
-</details>
+</details> -->
 &nbsp;
 &nbsp;
 &nbsp;
