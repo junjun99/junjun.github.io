@@ -17,7 +17,8 @@ You will require **coreutils** to run the MacOS commmands. (`brew install coreut
 &nbsp;
 
 
-####  Copy N random files from one directory to another
+<details><summary>Copy N random files from one directory to another</summary>
+<p>
 
 Good for messing around with a small sample from a large dataset. You can also add a regex pattern if you wish to filter.
 
@@ -44,14 +45,14 @@ Linux:
 ```
 find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<PATTERN>' -print0 | shuf -n <FILE_COUNT> -z | xargs -0  cp -t <TARGET_DIR>
 ```
-
 You can even tweak these commands so that you can copy N random **lines** from one file to another . Useful in those cases where all your data is in one file. (*Hint:* use 🐱)
-&nbsp;
-&nbsp;
-&nbsp;
+
+</p>
+</details>
 
 
-#### Find non-empty files in a directory
+<details><summary>Find non-empty files in a directory</summary>
+<p>
 
 Same for MacOS and Linux 
 ```
@@ -63,13 +64,12 @@ find <DIR_NAME> -empty -ls
 ```
 
 And to find the number of files, simply pipe the output of any of these commands to `wc - l`.
-&nbsp;
-&nbsp;
-&nbsp;
 
+</p>
+</details>
 
-
-#### Join files horizontally using a Primary Key
+<details><summary>Join files horizontally using a Primary Key</summary>
+<p>
 Same for MacOS and Linux 
 
 Useful for joining CSV's. This process requires that your data is complete and clean, so not sure how useful this is. However, it's a very fast procedure to join two CSVs after removing missing information (I will add a few commands that can help with this!). 
@@ -108,6 +108,8 @@ Arjun,Purple,MacOS,Table Tennis,PHP
 Russell,Red,Windows,Dota2,C++
 Sanja,Black,Ubuntu,Netflix,Pyhon
 ```
+</p>
+</details>
 &nbsp;
 &nbsp;
 &nbsp;
@@ -117,4 +119,11 @@ Sanja,Black,Ubuntu,Netflix,Pyhon
 &nbsp;
 &nbsp;
 &nbsp;
+
+
+
+
+
+
+
 
