@@ -112,8 +112,8 @@ We could do the following:<br>
 
 Sort both files by their primary key (located in the first column).<br>
 <pre>
-sort -t"," -k1  1.csv > 1_sorted.csv
-sort -t"," -k1  2.csv > 2_sorted.csv
+% sort -t"," -k1  1.csv > 1_sorted.csv
+% sort -t"," -k1  2.csv > 2_sorted.csv
 </pre>
 
 Now cut the 2nd column from <code>2_sorted</code> and add to <code>1_sorted</code> using the <code>cut</code> and <code>paste</code> commands.<br>
