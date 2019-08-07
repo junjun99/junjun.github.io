@@ -17,37 +17,43 @@ You will require **coreutils** to run the MacOS commmands. (`brew install coreut
 &nbsp;
 
 
-<details><summary>Copy N random files from one directory to another</summary>
-<p>
+<details><summary><b>Copy N random files from one directory to another</b></summary>
 
-Good for messing around with a small sample from a large dataset. You can also add a regex pattern if you wish to filter.
+<ul style="font-size:16px">
 
-MacOS:
+<p> Good for messing around with a small sample from a large dataset. You can also add a regex pattern if you wish to filter.</p>
+
+<p> MacOS: </p>
+<code>
 ```
 gshuf -zn <FILE_COUNT> -e <PATTERN> | xargs -0 gcp -vt <TARGET_DIR>
 ```
+</code>
 
-Linux:
+<p>Linux:</p>
+<code>
 ```
 shuf -zn <FILE_COUNT> -e <PATTERN> | xargs -0 cp -vt <TARGET_DIR>
 ```
+</code>
 
-You may encounter an error: `shuf: Argument list too long`. 
+<p>You may encounter an error: <code>`shuf: Argument list too long`. </code> </p>
 
-In this case, we can pipe the arguments as follows:
+<p> In this case, we can pipe the arguments as follows: </p>
 
-MacOS:
-```
+<p>MacOS:</p>
+<code>
 find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<PATTERN>' -print0 | gshuf -n <FILE_COUNT> -z | xargs -0 gcp -t <TARGET_DIR>
-```
+</code>
 
-Linux:
-```
+<p>Linux:</p>
+<code>
 find <SOURCE_DIR> -mindepth 1 -maxdepth 1 ! -name '<PATTERN>' -print0 | shuf -n <FILE_COUNT> -z | xargs -0  cp -t <TARGET_DIR>
-```
-You can even tweak these commands so that you can copy N random **lines** from one file to another . Useful in those cases where all your data is in one file. (*Hint:* use 🐱)
+</code>
 
-</p>
+<p>You can even tweak these commands so that you can copy N random **lines** from one file to another . Useful in those cases where all your data is in one file. (*Hint:* use 🐱)</p>
+
+
 </details>
 
 
