@@ -51,7 +51,7 @@ You can even tweak these commands so that you can copy N random **lines** from o
 &nbsp;
 
 
-### Find non-empty files in a directory
+#### Find non-empty files in a directory
 
 Same for MacOS and Linux 
 ```
@@ -69,7 +69,7 @@ And to find the number of files, simply pipe the output of any of these commands
 
 
 
-### Join files horizontally using a Primary Key.
+#### Join files horizontally using a Primary Key.
 
 Useful for joining CSV's. This process requires that your data is complete and clean, so not sure how useful this is. However, it's a very fast procedure to join two CSVs after removing mising information (I will add a few commands that can help with this!). 
 
