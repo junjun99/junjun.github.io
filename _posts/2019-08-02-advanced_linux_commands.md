@@ -100,6 +100,13 @@ Now cut the 2nd column from `2_sorted` and add to `1_sorted` using the `cut` and
 cut -d',' -f2 2_sorted.csv > 2_sorted_fav_lang.csv
 paste -d, 1_sorted.csv 2_sorted_fav_lang.csv > final.csv
 ```
+Let's take a look
+```
+> cat final.csv
+Arjun,Purple,MacOS,Table Tennis,PHP
+Russell,Red,Windows,Dota2,C++
+Sanja,Black,Ubuntu,Netflix,Pyhon
+```
 &nbsp;
 &nbsp;
 &nbsp;
