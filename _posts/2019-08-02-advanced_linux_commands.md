@@ -72,7 +72,7 @@ And to find the number of files, simply pipe the output of any of these commands
 #### Join files horizontally using a Primary Key
 Same for MacOS and Linux 
 
-Useful for joining CSV's. This process requires that your data is complete and clean, so not sure how useful this is. However, it's a very fast procedure to join two CSVs after removing mising information (I will add a few commands that can help with this!). 
+Useful for joining CSV's. This process requires that your data is complete and clean, so not sure how useful this is. However, it's a very fast procedure to join two CSVs after removing missing information (I will add a few commands that can help with this!). 
 
 Suppose you have the following two CSV's: 
 ```
@@ -87,7 +87,7 @@ Russell,C++
 Sanja,Pyhon
 Arjun,PHP
 ```
-And we want to create a single csv using the names as our primary key.
+And we want to create a single CSV using the names as our primary key.
 
 We could do the following:
 
