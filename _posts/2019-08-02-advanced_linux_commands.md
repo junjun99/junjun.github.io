@@ -23,29 +23,32 @@ You will require **coreutils** to run the MacOS commmands. (`brew install coreut
 
 <p> Good for messing around with a small sample from a large dataset. You can also add a regex pattern if you wish to filter.</p>
 
-<p> MacOS: </p>
+<p> MacOS:<br>
 <code>
 gshuf -zn <i>FILE_COUNT</i> -e <i>PATTERN</i> | xargs -0 gcp -vt <i>TARGET_DIR</i>
 </code>
+</p>
 
-<p>Linux:</p>
+<p>Linux:<br>
 <code>
 shuf -zn <i>FILE_COUNT</i> -e <i>PATTERN</i> | xargs -0 cp -vt <i>TARGET_DIR</i>
 </code>
+</p>
 
-<p>You may encounter an error: <code>`shuf: Argument list too long`. </code> </p>
+<p>You may encounter an error: <code>`shuf: Argument list too long`. </code> <br>
+In this case, we can pipe the arguments as follows: </p>
 
-<p> In this case, we can pipe the arguments as follows: </p>
-
-<p>MacOS:</p>
+<p>MacOS:
 <code>
 find <i>SOURCE_DIR</i> -mindepth 1 -maxdepth 1 ! -name <i>PATTERN</i> -print0 | gshuf -n <i>FILE_COUNT</i> -z | xargs -0 gcp -t <i>TARGET_DIR</i>
 </code>
+</p>
 
-<p>Linux:</p>
+<p>Linux:
 <code>
 find <i>SOURCE_DIR</i> -mindepth 1 -maxdepth 1 ! -name <i>PATTERN</i> -print0 | shuf -n <i>FILE_COUNT</i> -z | xargs -0  cp -t <i>TARGET_DIR</i>
 </code>
+</p>
 
 <p>You can even tweak these commands so that you can copy N random **lines** from one file to another . Useful in those cases where all your data is in one file. (*Hint:* use 🐱)</p>
 
