@@ -114,15 +114,16 @@ Sort both files by their primary key (located in the first column).<br>
 <pre>
 sort -t"," -k1  1.csv > 1_sorted.csv
 sort -t"," -k1  2.csv > 2_sorted.csv
-</pre><
+</pre>
+
 Now cut the 2nd column from <code>2_sorted</code> and add to <code>1_sorted</code> using the <code>cut</code> and <code>paste</code> commands.<br>
 <pre>
-cut -d',' -f2 2_sorted.csv > 2_sorted_fav_lang.csv
-paste -d, 1_sorted.csv 2_sorted_fav_lang.csv > final.csv
+% cut -d',' -f2 2_sorted.csv > 2_sorted_fav_lang.csv
+% paste -d, 1_sorted.csv 2_sorted_fav_lang.csv > final.csv
 </pre>
 Let's take a look:<br>
 <pre>
-> cat final.csv
+% cat final.csv
 Arjun,Purple,MacOS,Table Tennis,PHP
 Russell,Red,Windows,Dota2,C++
 Sanja,Black,Ubuntu,Netflix,Pyhon
