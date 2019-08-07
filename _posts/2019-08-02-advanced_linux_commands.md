@@ -34,15 +34,15 @@ You will require **coreutils** to run the MacOS commmands. (`brew install coreut
 <p> Good for messing around with a small sample from a large dataset. You can also add a regex pattern if you wish to filter.</p>
 
 <p> MacOS:<br>
-<code>
+<pre>
 gshuf -zn <i>FILE_COUNT</i> -e <i>PATTERN</i> | xargs -0 gcp -vt <i>TARGET_DIR</i>
-</code>
+</pre>
 </p>
 
 <p>Linux:<br>
-<code>
+<pre>
 shuf -zn <i>FILE_COUNT</i> -e <i>PATTERN</i> | xargs -0 cp -vt <i>TARGET_DIR</i>
-</code>
+</pre>
 </p>
 
 <p>You may encounter an error: <code>shuf: Argument list too long</code> <br>
@@ -66,65 +66,69 @@ find <i>SOURCE_DIR</i> -mindepth 1 -maxdepth 1 ! -name <i>PATTERN</i> -print0 | 
 </details>
 
 
-<!-- <details><summary>Find non-empty files in a directory</summary>
+<details><summary>Find non-empty files in a directory</summary>
 <p>
 
-Same for MacOS and Linux 
-```
-find <DIR_NAME> -not -empty -ls 
-```
-You can change this command to find the names of the empty file names. 
-```
-find <DIR_NAME> -empty -ls
-```
-
-And to find the number of files, simply pipe the output of any of these commands to `wc - l`.
-
+Same for MacOS and Linux <br>
+<pre>
+find <i>DIR_NAME</i> -not -empty -ls 
+</pre>
+</p>
+<p>
+You can change this command to find the names of the empty file names. <br>
+<pre>
+find <i>DIR_NAME</i> -empty -ls
+</pre>
+</p>
+<p>
+And to find the number of files, simply pipe the output of any of these commands to <pre>wc - l</pre>
 </p>
 </details>
 
 <details><summary>Join files horizontally using a Primary Key</summary>
 <p>
-Same for MacOS and Linux 
-
+Same for MacOS and Linux <br>
+</p>
+<p>
 Useful for joining CSV's. This process requires that your data is complete and clean, so not sure how useful this is. However, it's a very fast procedure to join two CSVs after removing missing information (I will add a few commands that can help with this!). 
-
-Suppose you have the following two CSV's: 
-```
-> cat 1.csv
+</p>
+<p>
+Suppose you have the following two CSV's: <br>
+<pre>
+% cat 1.csv
 Arjun,Purple,MacOS,Table Tennis
 Sanja,Black,Ubuntu,Netflix
 Russell,Red,Windows,Dota2
 
-
-> cat 2.csv
+% cat 2.csv
 Russell,C++
 Sanja,Pyhon
 Arjun,PHP
-```
-And we want to create a single CSV using the names as our primary key.
+</pre>
+<br>
+And we want to create a single CSV using the names as our primary key.<br>
 
-We could do the following:
+We could do the following:<br>
 
-Sort both files by their primary key (located in the first column).
-```
+Sort both files by their primary key (located in the first column).<br>
+<pre>
 sort -t"," -k1  1.csv > 1_sorted.csv
 sort -t"," -k1  2.csv > 2_sorted.csv
-``` 
-Now cut the 2nd column from `2_sorted` and add to `1_sorted` using the `cut` and `paste` commands.
-```
+</pre><br>
+Now cut the 2nd column from <pre>2_sorted</pre> and add to <pre>1_sorted</pre> using the <pre>cut</pre> and <pre>paste</pre> commands.<br>
+<pre>
 cut -d',' -f2 2_sorted.csv > 2_sorted_fav_lang.csv
 paste -d, 1_sorted.csv 2_sorted_fav_lang.csv > final.csv
-```
-Let's take a look:
-```
+</pre><br>
+Let's take a look:<br>
+<pre>
 > cat final.csv
 Arjun,Purple,MacOS,Table Tennis,PHP
 Russell,Red,Windows,Dota2,C++
 Sanja,Black,Ubuntu,Netflix,Pyhon
-```
+</pre>
 </p>
-</details> -->
+</details>
 &nbsp;
 &nbsp;
 &nbsp;
