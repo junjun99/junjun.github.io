@@ -28,31 +28,30 @@ You will require **coreutils** to run the MacOS commmands. (`brew install coreut
 
 
 <details><summary><b>Copy N random files from one directory to another</b></summary>
+<p> 
+Good for messing around with a small sample from a large dataset. You can also add a regex pattern if you wish to filter.<br>
 
-<p> Good for messing around with a small sample from a large dataset. You can also add a regex pattern if you wish to filter.</p>
-
-<p> MacOS:<br>
+MacOS:<br>
 <pre>
 gshuf -zn <i>FILE_COUNT</i> -e <i>PATTERN</i> | xargs -0 gcp -vt <i>TARGET_DIR</i>
 </pre>
-</p>
 
-<p>Linux:<br>
+
+Linux:<br>
 <pre>
 shuf -zn <i>FILE_COUNT</i> -e <i>PATTERN</i> | xargs -0 cp -vt <i>TARGET_DIR</i>
 </pre>
 </p>
 
 <p>You may encounter an error: <code>shuf: Argument list too long</code> <br>
-In this case, we can pipe the arguments as follows: </p>
+In this case, we can pipe the arguments as follows: <br>
 
-<p>MacOS:<br>
+MacOS:<br>
 <pre>
 find <i>SOURCE_DIR</i> -mindepth 1 -maxdepth 1 ! -name <i>PATTERN</i> -print0 | gshuf -n <i>FILE_COUNT</i> -z | xargs -0 gcp -t <i>TARGET_DIR</i>
 </pre>
-</p>
 
-<p>Linux:<br>
+Linux:<br>
 <pre>
 find <i>SOURCE_DIR</i> -mindepth 1 -maxdepth 1 ! -name <i>PATTERN</i> -print0 | shuf -n <i>FILE_COUNT</i> -z | xargs -0  cp -t <i>TARGET_DIR</i>
 </pre>
@@ -99,6 +98,7 @@ Suppose you have the following two CSV's: <br>
 Arjun,Purple,MacOS,Table Tennis
 Sanja,Black,Ubuntu,Netflix
 Russell,Red,Windows,Dota2
+
 
 % cat 2.csv
 Russell,C++
