@@ -105,7 +105,6 @@ Russell,C++
 Sanja,Pyhon
 Arjun,PHP
 </pre>
-<br>
 And we want to create a single CSV using the names as our primary key.<br>
 
 We could do the following:<br>
