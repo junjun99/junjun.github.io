@@ -15,6 +15,16 @@ You will require **coreutils** to run the MacOS commmands. (`brew install coreut
 &nbsp;
 &nbsp;
 &nbsp;
+<style>
+         pre {
+            overflow-x: auto;
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+         }
+</style>
 
 
 <details><summary><b>Copy N random files from one directory to another</b></summary>
@@ -35,19 +45,19 @@ shuf -zn <i>FILE_COUNT</i> -e <i>PATTERN</i> | xargs -0 cp -vt <i>TARGET_DIR</i>
 </code>
 </p>
 
-<p>You may encounter an error: <code>`shuf: Argument list too long`. </code> <br>
+<p>You may encounter an error: <code>shuf: Argument list too long</code> <br>
 In this case, we can pipe the arguments as follows: </p>
 
-<p>MacOS:
-<code>
+<p>MacOS:<br>
+<pre>
 find <i>SOURCE_DIR</i> -mindepth 1 -maxdepth 1 ! -name <i>PATTERN</i> -print0 | gshuf -n <i>FILE_COUNT</i> -z | xargs -0 gcp -t <i>TARGET_DIR</i>
-</code>
+</pre>
 </p>
 
-<p>Linux:
-<code>
+<p>Linux:<br>
+<pre>
 find <i>SOURCE_DIR</i> -mindepth 1 -maxdepth 1 ! -name <i>PATTERN</i> -print0 | shuf -n <i>FILE_COUNT</i> -z | xargs -0  cp -t <i>TARGET_DIR</i>
-</code>
+</pre>
 </p>
 
 <p>You can even tweak these commands so that you can copy N random **lines** from one file to another . Useful in those cases where all your data is in one file. (*Hint:* use 🐱)</p>
