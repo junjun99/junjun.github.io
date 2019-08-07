@@ -60,13 +60,13 @@ find <i>SOURCE_DIR</i> -mindepth 1 -maxdepth 1 ! -name <i>PATTERN</i> -print0 | 
 </pre>
 </p>
 
-<p>You can even tweak these commands so that you can copy N random **lines** from one file to another . Useful in those cases where all your data is in one file. (*Hint:* use 🐱)</p>
+<p>You can even tweak these commands so that you can copy N random <b>lines</b> from one file to another . Useful in those cases where all your data is in one file. (<b>Hint:</b> use 🐱)</p>
 
 
 </details>
 
 
-<details><summary>Find non-empty files in a directory</summary>
+<details><summary><b>Find non-empty files in a directory</b></summary>
 <p>
 
 Same for MacOS and Linux <br>
@@ -81,11 +81,13 @@ find <i>DIR_NAME</i> -empty -ls
 </pre>
 </p>
 <p>
-And to find the number of files, simply pipe the output of any of these commands to <pre>wc - l</pre>
+And to find the number of files, simply pipe the output of any of these commands to <code>wc - l</code>
 </p>
 </details>
 
-<details><summary>Join files horizontally using a Primary Key</summary>
+
+
+<details><summary><b>Join files horizontally using a Primary Key</b></summary>
 <p>
 Same for MacOS and Linux <br>
 </p>
@@ -114,12 +116,12 @@ Sort both files by their primary key (located in the first column).<br>
 <pre>
 sort -t"," -k1  1.csv > 1_sorted.csv
 sort -t"," -k1  2.csv > 2_sorted.csv
-</pre><br>
-Now cut the 2nd column from <pre>2_sorted</pre> and add to <pre>1_sorted</pre> using the <pre>cut</pre> and <pre>paste</pre> commands.<br>
+</pre><
+Now cut the 2nd column from <code>2_sorted</code> and add to <code>1_sorted</code> using the <code>cut</code> and <code>paste</code> commands.<br>
 <pre>
 cut -d',' -f2 2_sorted.csv > 2_sorted_fav_lang.csv
 paste -d, 1_sorted.csv 2_sorted_fav_lang.csv > final.csv
-</pre><br>
+</pre>
 Let's take a look:<br>
 <pre>
 > cat final.csv
