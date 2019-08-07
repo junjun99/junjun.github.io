@@ -29,8 +29,6 @@ You will require **coreutils** to run the MacOS commmands. (`brew install coreut
 
 <details><summary><b>Copy N random files from one directory to another</b></summary>
 
-<ul style="font-size:16px">
-
 <p> Good for messing around with a small sample from a large dataset. You can also add a regex pattern if you wish to filter.</p>
 
 <p> MacOS:<br>
