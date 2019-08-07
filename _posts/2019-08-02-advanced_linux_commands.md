@@ -49,6 +49,61 @@ You can even tweak these commands so that you can copy N random **lines** from o
 &nbsp;
 &nbsp;
 &nbsp;
+
+
+### Find non-empty files in a directory
+
+Same for MacOS and Linux 
+```
+find <DIR_NAME> -not -empty -ls 
+```
+You can change this command to find the names of the empty file names. 
+```
+find <DIR_NAME> -empty -ls
+```
+
+And to find the number of files, simply pipe the output of any of these commands to `wc - l`.
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+### Join files horizontally using a Primary Key.
+
+Useful for joining CSV's. This process requires that your data is complete and clean, so not sure how useful this is. However, it's a very fast procedure to join two CSVs after removing mising information (I will add a few commands that can help with this!). 
+
+Suppose you have the following two CSV's: 
+```
+> cat 1.csv
+Arjun,Purple,MacOS,Table Tennis
+Sanja,Black,Ubuntu,Netflix
+Russell,Red,Windows,Dota2
+
+
+> cat 2.csv
+Russell,C++
+Sanja,Pyhon
+Arjun,PHP
+```
+And we want to create a single csv using the names as our primary key.
+
+We could do the following:
+
+Sort both files by their primary key (located in the first column)
+```
+sort -t"," -k1  1.csv > 1_sorted.csv
+sort -t"," -k1  2.csv > 2_sorted.csv
+``` 
+Now cut the 2nd column from `2_sorted` and add to `1_sorted` using the `cut` and `paste` commands
+```
+cut -d',' -f2 2_sorted.csv > 2_sorted_fav_lang.csv
+paste -d, 1_sorted.csv 2_sorted_fav_lang.csv > final.csv
+```
+&nbsp;
+&nbsp;
+&nbsp;
+
 #### More to come!
 &nbsp;
 &nbsp;
