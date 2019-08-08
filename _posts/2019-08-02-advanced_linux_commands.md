@@ -8,7 +8,7 @@ Just a collection of useful commands that I find cool/interesting.
 &nbsp;
 
 
-You will require **coreutils** to run the MacOS commmands. (`brew install coreutils`) 
+You will require **coreutils** to run the MacOS commands. (`brew install coreutils`) 
 &nbsp;
 
 [Don't have homebrew? Please install it.](https://brew.sh/)
@@ -89,7 +89,7 @@ And to find the number of files, simply pipe the output of any of these commands
 Same for MacOS and Linux <br>
 </p>
 <p>
-Useful for joining CSV's. This process requires that your data is complete and clean, so not sure how useful this is. However, it's a very fast procedure to join two CSVs after removing missing information (I will add a few commands that can help with this!). 
+Useful for joining CSV's. This process requires that your data is complete and clean which is an even more complicated problem to solve. However, it's a very fast and memory efficient procedure to join two CSVs after removing missing information (I will add a few commands that can help with this!). 
 </p>
 <p>
 Suppose you have the following two CSV's: <br>
