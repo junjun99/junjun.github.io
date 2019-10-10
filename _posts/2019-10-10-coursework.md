@@ -73,7 +73,7 @@ Semsters:
 <details><summary><b>Spring, 2019</b></summary>
 <ul>
 	<li>PD 3: Communication</li>
-	<li>CO-OP 3: Python NLP Intern @ Loom Analytics
+	<li>CO-OP 3: Python NLP Intern @ Loom Analytics</li>
 </ul>
 </details>
 
