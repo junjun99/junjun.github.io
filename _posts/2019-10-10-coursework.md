@@ -5,17 +5,14 @@ title: Courses
 ---
 
 
-Courses taken during my current undergraduate degree. I started the University of Waterloo in Computer Engineering in 2017 and switched to the faculty of Mathematics to pursue a major in Statistics and minor in Computer Science in Fall, 2019. 
+Courses taken during my current undergraduate degree. I started the University of Waterloo in Computer Engineering in 2017 and switched to the faculty of Mathematics to pursue a major in Statistics and minor in Computer Science in Fall, 2019. <br>
+**Expected Graduation Date: April, 2022** <br>
+**Expected Degree: Bachelor of Mathematics in Statistics with Minor in Computer Science** <br>
 
-Fall Term - Sept - Dec
-
-Winter Term - Jan - Apr
-
-Spring term - May - Aug
-
-Expected Graduation Date: April, 2022
-
-Eppected Degree: Bachelor of Mathematics in Statistics with Minor in Computer Science
+Semsters:
+* Fall Term: Sept - Dec <br>
+* Winter Term: Jan - Apr <br>
+* Spring term: May - Aug <br>
 
 ### Course List by Semester:
 
