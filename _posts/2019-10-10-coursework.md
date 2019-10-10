@@ -15,7 +15,7 @@ Spring term - May - Aug
 
 Expected Graduation Date: April, 2022
 
-EXpected Degree: Bachelor of Mathematics in Statistics with Minor in Computer Science
+Eppected Degree: Bachelor of Mathematics in Statistics with Minor in Computer Science
 
 ### Course List by Semester:
 
@@ -57,7 +57,7 @@ EXpected Degree: Bachelor of Mathematics in Statistics with Minor in Computer Sc
 <details><summary><b>Fall, 2018</b></summary>
 <ul>
 	<li>PD 21: Engineering Workplace Skills II: Developing Effectve Plans</li>
-	<li>CO-OP 2: Data Analyst @ HelloGbye
+	<li>CO-OP 2: Data Analyst @ HelloGbye</li>
 </ul>
 </details>
 
@@ -96,7 +96,7 @@ EXpected Degree: Bachelor of Mathematics in Statistics with Minor in Computer Sc
 <ul>
 	<li>STAT 241: Statistics (Advanced)</li>
 	<li>STAT 333: Applied Probability</li>
-	<li>MATH 239: Introduction to Combinatorics 2</li>
+	<li>MATH 239: Introduction to Combinatorics</li>
 	<li>CS 245: Logic and Computation</li>
 	<li>CS 246: Object-Oriented Software Development</li>
 </ul>
