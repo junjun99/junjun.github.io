@@ -89,16 +89,24 @@ Semsters:
 </ul>
 </details>
 
-<details><summary><b>Winter, 2020(Tentative)</b></summary>
+<details><summary><b>Winter, 2020</b></summary>
 <ul>
 	<li>STAT 241: Statistics (Advanced)</li>
 	<li>STAT 333: Applied Probability</li>
-	<li>MATH 239: Introduction to Combinatorics</li>
 	<li>CS 245: Logic and Computation</li>
 	<li>CS 246: Object-Oriented Software Development</li>
 </ul>
 </details>
 
+<details><summary><b>Fall, 2020</b></summary>
+<ul>
+	<li>STAT 341: Computational Statistics and Data Analysis</li>
+	<li>STAT 330: Mathematical Statistics</li>
+	<li>CS 240: Data Structures and Data Management</li>
+	<li>STAT 331: Applied Linear Models</li>
+	<li>MATH 239: Intro to Combinatorics</li>
+</ul>
+</details>
 
 
 
