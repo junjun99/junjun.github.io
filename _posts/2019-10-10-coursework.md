@@ -108,6 +108,16 @@ Semsters:
 </ul>
 </details>
 
+<details><summary><b>Winter, 2021</b></summary>
+<ul>
+	<li>STAT 441: Stastical Learning - Classification</li>
+	<li>STAT 440: Computational Inference</li>
+	<li>CS 332: Sampling and Experimental Design</li>
+	<li>CS 341: Algorithms</li>
+	<li>CO 227: Introduction to Optimization</li>
+</ul>
+</details>
+
 
 
 
